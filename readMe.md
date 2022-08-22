@@ -1,4 +1,4 @@
-Setelah berhasil clone..
+Silahkan clone Repo ini "projecttugasminggu1". Setelah berhasil clone..
 
 1. Silahkan buatlah sebuah branch baru dengan menggunakan nama depan Anda saja. (jika misal Muhammad silahkan buat nama branch dengan "M_namatengah").
 2. Setelah branch nama Anda terbuat. Silahkan buatlah sebuah form yang dapat menampilkan hasil outputan data.
