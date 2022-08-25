@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="static/css/login.css" rel="stylesheet">
+<link href="static/css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="index.html">Kuis</a>
+  <a>Login</a>
+</div>
+
+<h2>Login Form</h2>
+<form action="/action_page.php" method="post" id="form-login">
+  <div class="container">
+    <label for="username"><b>Username</b></label>
+    <input type="text" placeholder="masukkan username" name="username" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="masukkan password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" name="remember"> Remember me
+    </label>
+    <p id="feedback"></p>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="reset" class="resetbtn">Clear</button>
+    <span class="psw">Not have an account? <a href="register.html">Register</a></span>
+  </div>
+</form>
+<script src="static/js/kode.js"></script>
+</body>
+</html>

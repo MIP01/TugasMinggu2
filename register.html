@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="static/css/register.css" rel="stylesheet">
+<link href="static/css/main.css" rel="stylesheet">
+</head>
+<body>
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="index.html">Kuis</a>
+    <a>Register</a>
+  </div>
+
+<form action="/action_page.php" method="post" id="form-register">
+  <div class="container">
+    <h1>Register</h1>
+    <hr>
+    <label for="nama"><b>Username</b></label>
+    <input type="text" name="username" placeholder="Username " id="nama" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Masukkan Email" name="email" id="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Masukkan Password" name="psw" id="psw" required>
+
+    <label for="date"><b>Tanggal Lahir</b></label>
+    <input type="date"  name="psw-repeat" id="date" required>
+    <hr>
+    <p id="feedback"></p>
+
+    <button type="submit" class="register">Register</button>
+  </div>
+  
+  <div class="container signin">
+    <p>Already have an account? <a href="login.html">Log In</a>.</p>
+  </div>
+</form>
+<script src="static/js/register.js"></script>
+</body>
+</html>
